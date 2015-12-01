@@ -1,0 +1,21 @@
+//
+//  FRP-Prefix.pch
+//  FunctionalReactivePixels
+//
+//  Created by Dylan Shine on 11/30/15.
+//  Copyright © 2015 Fuzz Productions. All rights reserved.
+//
+
+#ifndef FRP_Prefix_pch
+#define FRP_Prefix_pch
+
+// Pods
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import	<500px-iOS-api/PXAPI.h>
+#import	<libextobjc/EXTScope.h>
+
+// App Delegate
+#import "AppDelegate.h"
+#define AppDelegate ((FRPAppDelegate *) [[UIApplication sharedApplication] delegate])
+
+#endif /* FRP_Prefix_pch */
