@@ -16,6 +16,6 @@
 
 // App Delegate
 #import "AppDelegate.h"
-#define AppDelegate ((FRPAppDelegate *) [[UIApplication sharedApplication] delegate])
+//#define AppDelegate ((FRPAppDelegate *) [[UIApplication sharedApplication] delegate])
 
 #endif /* FRP_Prefix_pch */
